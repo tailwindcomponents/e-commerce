@@ -16,6 +16,12 @@
         <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
     </head>
     <body>
-        @yield('body')
+        @include('_layouts.navbar')
+
+        <main class="my-8">
+            @yield('body')
+        </main>
+
+        @include('_layouts.footer')
     </body>
 </html>
