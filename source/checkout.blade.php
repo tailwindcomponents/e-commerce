@@ -73,8 +73,8 @@
                         <h3 class="text-gray-700 font-medium">Order total (2)</h3>
                         <span class="text-gray-600 text-sm">Edit</span>
                     </div>
-                    <div class="flex items-center justify-between">
-                        <div class="flex mt-6">
+                    <div class="flex justify-between mt-6">
+                        <div class="flex">
                             <img class="h-20 w-20 object-cover rounded" src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80" alt="">
                             <div class="mx-3">
                                 <h3 class="text-sm text-gray-600">Mac Book Pro</h3>
@@ -89,7 +89,7 @@
                                 </div>
                             </div>
                         </div>
-                        <span></span>
+                        <span class="text-gray-600">20$</span>
                     </div>
                 </div>
             </div>

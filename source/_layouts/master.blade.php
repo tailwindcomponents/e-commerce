@@ -16,12 +16,16 @@
         <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
     </head>
     <body>
-        @include('_layouts.navbar')
+        <div x-data="{ cartOpen: false , isOpen: false }">
+            @include('_layouts._navbar')
+            
+            @include('_layouts._cart')
+    
+            <main class="my-8">
+                @yield('body')
+            </main>
 
-        <main class="my-8">
-            @yield('body')
-        </main>
-
-        @include('_layouts.footer')
+            @include('_layouts._footer')
+        </div>
     </body>
 </html>
