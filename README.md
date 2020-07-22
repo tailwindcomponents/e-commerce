@@ -1,4 +1,4 @@
-## E-commerce website
+## E-commerce Template
 <a href="https://github.com/tailwindcomponents/e-commerce/blob/master/LICENSE.md">
     <img src="https://img.shields.io/github/license/tailwindcomponents/e-commerce">
 </a>
