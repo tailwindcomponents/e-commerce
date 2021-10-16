@@ -32,16 +32,21 @@ Live [Demo](https://ecommerce-tailwindcomponents.netlify.app)
 <img src="screenshots/cart-model.png">
 
 ### Project setup
+
 ```
 composer install && npm install
 ```
 
 ### Compiles and hot-reloads for development
+
 ```
 npm run watch
+vendor/bin/jigsaw serve
 ```
 
 ### Compiles and minifies for production
+
 ```
 npm run production
+vendor/bin/jigsaw serve
 ```
