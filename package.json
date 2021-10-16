@@ -1,24 +1,25 @@
 {
     "private": true,
     "scripts": {
-        "local": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --env=local --config=node_modules/laravel-mix/setup/webpack.config.js",
-        "staging": "cross-env NODE_ENV=staging node_modules/webpack/bin/webpack.js --progress --hide-modules --env=staging --config=node_modules/laravel-mix/setup/webpack.config.js",
-        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --env=production --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "local": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --env=local --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "staging": "cross-env NODE_ENV=staging node_modules/webpack/bin/webpack.js --progress --env=staging --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --env=production --config=node_modules/laravel-mix/setup/webpack.config.js",
         "dev": "npm run local",
         "prod": "npm run production",
         "watch": "npm run local -- --watch"
     },
     "devDependencies": {
-        "@tailwindcss/custom-forms": "^0.2.1",
-        "cross-env": "^3.2.3",
-        "laravel-mix": "^4.0.0",
-        "laravel-mix-jigsaw": "^1.1.0",
-        "sass": "^1.15.2",
-        "sass-loader": "^7.1.0",
-        "tailwindcss": "^1.4.6",
-        "vue-template-compiler": "^2.6.11"
+        "autoprefixer": "^10.3.7",
+        "@tailwindcss/forms": "^0.3.4",
+        "@tailwindcss/typography": "^0.4.1",
+        "laravel-mix": "^6.0.34",
+        "postcss": "^8.3.9",
+        "postcss-import": "^14.0.2",
+        "tailwindcss": "^2.2.17",
+        "cross-env": "^7.0.3",
+        "laravel-mix-jigsaw": "^2.0.0"
     },
     "dependencies": {
-        "alpinejs": "^2.3.3"
+        "alpinejs": "^3.4.2"
     }
 }

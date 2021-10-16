@@ -1,16 +1,20 @@
 module.exports = {
-  purge: [
-    './source/*.blade.php'
-  ],
-  theme: {
-    extend: {
-      spacing: {
-        '96': '24rem',
-      },
+    purge: [
+        'source/**/*.blade.php',
+        'source/**/*.md',
+        'source/**/*.html',
+      ],
+
+    theme: {
+        extend: {
+            spacing: {
+                '96': '24rem',
+            },
+        },
     },
-  },
-  variants: {},
-  plugins: [
-    require('@tailwindcss/custom-forms'),
-  ],
+
+    plugins: [
+        require('@tailwindcss/forms'),
+        require('@tailwindcss/typography')
+    ],
 }

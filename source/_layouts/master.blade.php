@@ -10,17 +10,17 @@
         <meta name="description" content="{{ $page->description }}">
 
         <title>{{ $page->title }}</title>
-        
+
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
 
-        <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
+        <script src="{{ mix('js/main.js', 'assets/build') }}" defer></script>
     </head>
     <body>
         <div x-data="{ cartOpen: false , isOpen: false }">
             @include('_layouts._navbar')
-            
+
             @include('_layouts._cart')
-    
+
             <main class="my-8">
                 @yield('body')
             </main>

@@ -18,14 +18,14 @@
                             <label class="flex items-center">
                                 <input type="radio" class="form-radio h-5 w-5 text-blue-600" checked><span class="ml-2 text-sm text-gray-700">MS Delivery</span>
                             </label>
-    
+
                             <span class="text-gray-600 text-sm">$18</span>
                         </button>
                         <button class="mt-6 flex items-center justify-between w-full bg-white rounded-md border p-4 focus:outline-none">
                             <label class="flex items-center">
                                 <input type="radio" class="form-radio h-5 w-5 text-blue-600"><span class="ml-2 text-sm text-gray-700">DC Delivery</span>
                             </label>
-    
+
                             <span class="text-gray-600 text-sm">$26</span>
                         </button>
                     </div>
@@ -34,7 +34,7 @@
                     <h4 class="text-sm text-gray-500 font-medium">Delivery address</h4>
                     <div class="mt-6 flex">
                         <label class="block w-3/12">
-                            <select class="form-select text-gray-700 mt-1 block w-full">
+                            <select class="block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 mt-1">
                                 <option>NY</option>
                                 <option>DC</option>
                                 <option>MH</option>
@@ -42,7 +42,7 @@
                             </select>
                         </label>
                         <label class="block flex-1 ml-3">
-                            <input type="text" class="form-input mt-1 block w-full text-gray-700" placeholder="Address">
+                            <input type="text" class="block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 mt-1" placeholder="Address">
                         </label>
                     </div>
                 </div>
@@ -50,7 +50,7 @@
                     <h4 class="text-sm text-gray-500 font-medium">Date</h4>
                     <div class="mt-6 flex">
                         <label class="block flex-1">
-                            <input type="date" class="form-input mt-1 block w-full text-gray-700" placeholder="Date">
+                            <input type="date" class="block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 mt-1" placeholder="Date">
                         </label>
                     </div>
                 </div>
